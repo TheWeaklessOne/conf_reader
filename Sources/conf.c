@@ -47,7 +47,7 @@ static char				**read_from_conf(int fd)
 	return (ret);
 }
 
-static t_list			*get_tasks(int fd)
+t_list					*get_tasks(int fd)
 {
 	t_list				*ret;
 	char				**conf;

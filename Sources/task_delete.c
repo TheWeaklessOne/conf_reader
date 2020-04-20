@@ -14,10 +14,15 @@
 
 void		task_list_delete(t_list *task_list)
 {
+	t_list	*del;
+
 	while (task_list)
 	{
 		task_delete(&task_list->task);
+		del = task_list;
 		task_list = task_list->next;
+		free(del);
+		del = NULL;
 	}
 }
 
