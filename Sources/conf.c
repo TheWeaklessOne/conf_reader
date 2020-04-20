@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:09:40 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/20 21:11:57 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/20 21:44:04 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,10 +41,7 @@ static char				**read_from_conf(int fd)
 
 	ret = NULL;
 	while (get_nl(fd, &str) == 1)
-	{
 		ret = add_to_text(ret, str);
-		free(str);
-	}
 	if (!ret)
 		ft_crash("File is empty!\n");
 	return (ret);
@@ -65,6 +62,9 @@ t_list					*get_tasks(int fd)
 			continue ;
 		ret = list_add_back(ret, create_task(conf, &i));
 	}
+	while (--i != -1)
+		free(conf[i]);
+	free(conf);
 	return (ret);
 }
 
