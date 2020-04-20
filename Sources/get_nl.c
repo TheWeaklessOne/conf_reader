@@ -82,7 +82,7 @@ int				get_nl(int const fd, char **line)
 {
 	static char	*str[12288];
 	char		*src;
-	char		buff[BUFF_SIZE + 1];
+	char		bugitf[BUFF_SIZE + 1];
 	int			bytes;
 
 	if (fd < 0 || fd > 12288 || line == NULL || (read(fd, NULL, 0) < 0))
