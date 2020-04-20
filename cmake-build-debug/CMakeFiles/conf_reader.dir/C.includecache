@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Includes/conf.h
+fcntl.h
+-
+stdio.h
+-
+limits.h
+-
+unistd.h
+-
+stdarg.h
+-
+stdlib.h
+-
+string.h
+-
+signal.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+structures.h
+../Includes/structures.h
+list.h
+../Includes/list.h
+
+../Includes/list.h
+unistd.h
+-
+stdlib.h
+-
+
+../Includes/structures.h
+
+C:/CLion/conf_reader/Sources/main.c
+conf.h
+C:/CLion/conf_reader/Sources/conf.h
+
