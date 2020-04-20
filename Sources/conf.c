@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:09:40 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/20 21:44:04 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/20 21:53:59 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ static char				**read_from_conf(int fd)
 	char				*str;
 
 	ret = NULL;
+	str = NULL;
 	while (get_nl(fd, &str) == 1)
 		ret = add_to_text(ret, str);
 	if (!ret)
