@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:09:40 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/20 20:27:11 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/20 20:30:59 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static int				open_conf(const char *path)
 		ft_crash("Bad path provided!\n");
 	if (len < 6 || !(path[len - 1] == 'f' && path[len - 2] == 'n' &&
 	path[len - 3] == 'o' && path[len - 4] == 'c' && path[len - 5] == '.'))
-		ft_crash("You provided not a *.task file!\n");
+		ft_crash("You provided not a *.conf file!\n");
 	if (check_file(path, IS_E) <= 0)
 		ft_crash("No such file - %s!\n", path);
 	if ((ret = open(path, O_RDONLY)) < 0)
