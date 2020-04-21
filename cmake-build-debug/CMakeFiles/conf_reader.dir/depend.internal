@@ -57,15 +57,15 @@ CMakeFiles/conf_reader.dir/Sources/ft.c.obj
  ../Includes/structures.h
  C:/CLion/conf_reader/Sources/ft.c
 CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj
- ../Includes/conf.h
- ../Includes/list.h
- ../Includes/structures.h
+ C:/CLion/conf_reader/Sources/conf.h
  C:/CLion/conf_reader/Sources/ft_strsplit.c
+ C:/CLion/conf_reader/Sources/list.h
+ C:/CLion/conf_reader/Sources/structures.h
 CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj
- ../Includes/conf.h
- ../Includes/list.h
- ../Includes/structures.h
+ C:/CLion/conf_reader/Sources/conf.h
  C:/CLion/conf_reader/Sources/get_nl.c
+ C:/CLion/conf_reader/Sources/list.h
+ C:/CLion/conf_reader/Sources/structures.h
 CMakeFiles/conf_reader.dir/Sources/list.c.obj
  ../Includes/list.h
  C:/CLion/conf_reader/Sources/list.c

@@ -56,15 +56,15 @@ CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Sources/ft.c
 
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Includes/conf.h
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Includes/list.h
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Includes/structures.h
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/conf.h
 CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/ft_strsplit.c
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/list.h
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/structures.h
 
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/conf.h
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/list.h
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/structures.h
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/conf.h
 CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/get_nl.c
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/list.h
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/structures.h
 
 CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Sources/list.c

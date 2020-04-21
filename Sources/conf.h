@@ -37,6 +37,18 @@
 # define TAB_SIZE	4
 # define BUFF_SIZE	4
 
+typedef struct		s_get_next_line
+{
+	char			*lp_cmp;
+	char			*lp_prev;
+	char			*line;
+	size_t			line_count;
+	size_t			interval;
+	size_t			tmp;
+	ssize_t			count;
+	char			buffer[BUFF_SIZE];
+}					t_get_next_line;
+
 char				*create_name(char *conf, int i);
 char				*create_command(char *conf, int i);
 char				*create_directory(char *conf, int i);

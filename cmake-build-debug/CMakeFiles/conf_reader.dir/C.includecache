@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/CLion/conf_reader/Sources/conf.c
-conf.h
-C:/CLion/conf_reader/Sources/conf.h
-
 C:/CLion/conf_reader/Sources/conf.h
 fcntl.h
 -
@@ -36,15 +32,15 @@ C:/CLion/conf_reader/Sources/structures.h
 list.h
 C:/CLion/conf_reader/Sources/list.h
 
+C:/CLion/conf_reader/Sources/get_nl.c
+conf.h
+C:/CLion/conf_reader/Sources/conf.h
+
 C:/CLion/conf_reader/Sources/list.h
 unistd.h
 -
 stdlib.h
 -
-
-C:/CLion/conf_reader/Sources/main.c
-conf.h
-C:/CLion/conf_reader/Sources/conf.h
 
 C:/CLion/conf_reader/Sources/structures.h
 
