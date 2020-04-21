@@ -1,0 +1,3 @@
+C:/CLion/conf_reader/cmake-build-debug/CMakeFiles/conf_reader.dir
+C:/CLion/conf_reader/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CLion/conf_reader/cmake-build-debug/CMakeFiles/rebuild_cache.dir

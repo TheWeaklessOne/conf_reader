@@ -79,7 +79,7 @@ char		**ft_strsplit(char *str)
 
 	i = 0;
 	j = 0;
-	words = ft_malloc(sizeof(char*) * ft_count_words(str) + 1);
+	words = ft_malloc(sizeof(char*) * (ft_count_words(str) + 1));
 	while (str[i] != '\0' && j < ft_count_words(str))
 	{
 		k = 0;

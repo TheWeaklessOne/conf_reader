@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="conf_reader"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/CLion/conf_reader/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conf_reader">
+				<Option output="C:/CLion/conf_reader/cmake-build-debug/conf_reader.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CLion/conf_reader/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CLion/conf_reader/Includes"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 conf_reader"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conf_reader/fast">
+				<Option output="C:/CLion/conf_reader/cmake-build-debug/conf_reader.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CLion/conf_reader/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/CLion/conf_reader/Includes"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 conf_reader/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/CLion/conf_reader/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/CLion/conf_reader/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/CLion/conf_reader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/CLion/conf_reader/Includes/conf.h">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Includes/list.h">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Includes/structures.h">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/check_file.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/check_uniq.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/conf.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/conf.h">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/conf_help.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/conf_reload.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/create.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/create_2.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/create_3.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/create_env.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/create_job.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/ft.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/ft_strsplit.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/get_nl.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/list.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/list.h">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/list_2.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/main.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/str.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/task_delete.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
