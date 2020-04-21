@@ -26,7 +26,7 @@ enum					e_restart
 enum					e_params
 {
 	COMMAND = 0,
-	DIRECTORY,
+	DIR,
 	UMASK,
 	COPIES,
 	STDOUT,

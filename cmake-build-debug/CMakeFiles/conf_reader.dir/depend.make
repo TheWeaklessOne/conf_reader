@@ -66,10 +66,10 @@ CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/get_nl.c
 
+CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Sources/list.c
-CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Sources/list.h
 
-CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Sources/list.h
+CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Sources/list_2.c
 
 CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Includes/conf.h

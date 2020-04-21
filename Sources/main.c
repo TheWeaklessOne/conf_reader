@@ -6,18 +6,18 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:30:33 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/20 21:37:49 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/21 17:26:52 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "conf.h"
 
-int						main()
+int						main(void)
 {
 	const char			*path = "../Conf.conf";
 	t_list				*task_list;
 
-//	conf_help();
+	conf_help();
 	task_list = conf_read(path);
 	print_tasks(task_list);
 	task_list = conf_reload("../Conf_2.conf", task_list);

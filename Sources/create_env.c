@@ -20,14 +20,14 @@ static char			*read_content(char *content, int i)
 	split = ft_strsplit(content);
 	if (split[0][strlen(split[0]) - 1] != ':')
 		ft_crash("Error at [%d] line:\n%s\n"
-		   "\':\' symbol have to be in the end of %s!", i + 1, content, split[0]);
+		"\':\' symbol have to be in the end of %s!", i + 1, content, split[0]);
 	split[0][strlen(split[0]) - 1] = '\0';
 	if (!split[1])
 		ft_crash("Error at [%d] line:\n%s\nNo content after "
-		   "\"%s\"!\n", i + 1, content, split[0]);
+		"\"%s\"!\n", i + 1, content, split[0]);
 	if (ft_split_size(split) > 2)
 		ft_crash("Error at [%d] line:\n%s\nThere have to be only one content"
-		   " after \"%s\"!\n", i + 1, content, split[0]);
+		" after \"%s\"!\n", i + 1, content, split[0]);
 	ret = ft_strjoin(ft_strjoin(split[0], " = ", 0), split[1], 1);
 	ft_free_split(split);
 	return (ret);
@@ -52,7 +52,7 @@ void				create_env(t_task *task, char **conf, int *i)
 	split = ft_strsplit(conf[*i]);
 	if (ft_split_size(split) != 1)
 		ft_crash("Error at [%d] line:\n%s\nContent for env should have 2 tab"
-				 " depth!\n", *i + 1, conf[*i]);
+		" depth!\n", *i + 1, conf[*i]);
 	k = -1;
 	(*i)++;
 	env = ft_malloc(sizeof(char*) * (count_content(conf, *i) + 1));
@@ -60,7 +60,7 @@ void				create_env(t_task *task, char **conf, int *i)
 	{
 		if (tab_count(conf[*i]) > 2)
 			ft_crash("Error at [%d] line:\n%s\nContent for env should have 2"
-					 " tab depth!\n", *i + 1, conf[*i]);
+			" tab depth!\n", *i + 1, conf[*i]);
 		env[++k] = read_content(conf[*i], *i);
 		(*i)++;
 	}

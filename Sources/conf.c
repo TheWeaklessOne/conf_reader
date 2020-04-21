@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:09:40 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/20 21:53:59 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/21 16:36:22 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,11 +82,10 @@ void					print_tasks(t_list *tasks)
 		printf("Job #%i:\nName - %s\nCommand - %s\nDirectory - %s\nUmask - "
 		"%d\nCopies - %d\nStdout - %d\nStderr - %d\nRestart - %d\nRetries - "
 		"%d\nOn_start - %d\nStop_signal - %d\nStop_waiting - %d\n"
-		"Success_waiting - %d\nEnd_codes: ", count++, task->name,
-		task->command, task->directory, task->umask, task->copies,
-		task->tstdout, task->tstderr, task->restart, task->retries,
-		task->on_start, task->stop_signal, task->stop_waiting,
-		task->success_waiting);
+		"Success_waiting - %d\nEnd_codes: ", count++, task->name, task->command,
+		task->directory, task->umask, task->copies, task->tstdout,
+		task->tstderr, task->restart, task->retries, task->on_start,
+		task->stop_signal, task->stop_waiting, task->success_waiting);
 		while (task->end_codes[++i] != -1 && i < END_CODES_N)
 			printf("%i%c", task->end_codes[i],
 					(task->end_codes[i + 1] != -1) ? ' ' : '\n');
@@ -101,7 +100,7 @@ void					print_tasks(t_list *tasks)
 
 t_list					*conf_read(const char *path)
 {
-	int 				conf_fd;
+	int					conf_fd;
 	t_list				*task_list;
 
 	conf_fd = open_conf(path);

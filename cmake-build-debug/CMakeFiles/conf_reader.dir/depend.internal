@@ -67,10 +67,10 @@ CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj
  ../Includes/structures.h
  C:/CLion/conf_reader/Sources/get_nl.c
 CMakeFiles/conf_reader.dir/Sources/list.c.obj
+ ../Includes/list.h
  C:/CLion/conf_reader/Sources/list.c
- C:/CLion/conf_reader/Sources/list.h
 CMakeFiles/conf_reader.dir/Sources/list_2.c.obj
- C:/CLion/conf_reader/Sources/list.h
+ ../Includes/list.h
  C:/CLion/conf_reader/Sources/list_2.c
 CMakeFiles/conf_reader.dir/Sources/main.c.obj
  ../Includes/conf.h

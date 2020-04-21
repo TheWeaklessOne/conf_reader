@@ -6,16 +6,16 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:29:31 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/07 15:29:31 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/21 17:09:44 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "conf.h"
 
-void			*ft_malloc(const size_t size)
+void					*ft_malloc(const size_t size)
 {
-	char		*ret;
-	size_t 		i;
+	char				*ret;
+	size_t				i;
 
 	if (!(ret = (char*)malloc(size)))
 		ft_crash("Malloc error");
@@ -53,9 +53,9 @@ int						ft_atoi(const char *str)
 	return (sign == 1 ? -result : result);
 }
 
-int					str_is_empty(const char *str)
+int						str_is_empty(const char *str)
 {
-	register size_t	i;
+	register size_t		i;
 
 	i = 0;
 	if (!str)
@@ -69,11 +69,11 @@ int					str_is_empty(const char *str)
 	return (1);
 }
 
-char				*ft_strjoin(char const *s1, char const *s2, int to_free)
+char					*ft_strjoin(char const *s1, char const *s2, int to_free)
 {
-	char			*str;
-	size_t			i;
-	size_t			k;
+	char				*str;
+	size_t				i;
+	size_t				k;
 
 	if (!s1 || !s2)
 		return (NULL);
@@ -97,10 +97,9 @@ char				*ft_strjoin(char const *s1, char const *s2, int to_free)
 	return (str);
 }
 
-
-void			ft_crash(const char *msg, ...)
+void					ft_crash(const char *msg, ...)
 {
-	va_list		args;
+	va_list				args;
 
 	va_start(args, msg);
 	vfprintf(stderr, msg, args);

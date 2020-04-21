@@ -20,13 +20,13 @@ int					create_umask(char *conf, int i)
 	split = ft_strsplit(conf);
 	if (!split[1])
 		ft_crash("Error at [%d] line:\n%s\nNo content after \"umask\" "
-		   "keyword!\n", i + 1, conf);
+		"keyword!\n", i + 1, conf);
 	if (ft_split_size(split) > 2)
 		ft_crash("Error at [%d] line:\n%s\nThere have to be only one content "
-		   "after \"umask\" keyword!\n", i + 1, conf);
+		"after \"umask\" keyword!\n", i + 1, conf);
 	if ((ret = ft_atoi(split[1])) < 0)
 		ft_crash("Error at [%d] line:\n%s\nUmask have to be positive integer"
-		   " number!\n", i + 1, conf);
+		" number!\n", i + 1, conf);
 	ft_free_split(split);
 	return (ret);
 }
@@ -41,7 +41,7 @@ void				create_end_codes(int codes[END_CODES_N], char *conf, int i)
 	split = ft_strsplit(conf);
 	if (!split[1])
 		ft_crash("Error at [%d] line:\n%s\nNo content after \"end_codes\""
-		   " keyword!\n", i + 1, conf);
+		" keyword!\n", i + 1, conf);
 	k = 0;
 	len = ft_split_size(split);
 	while (++k < len)
@@ -66,15 +66,15 @@ int					create_stop_signal(char *conf, int i)
 	split = ft_strsplit(conf);
 	if (!split[1])
 		ft_crash("Error at [%d] line:\n%s\nNo content after \"stop_signal\" "
-		   "keyword!\n", i + 1, conf);
+		"keyword!\n", i + 1, conf);
 	if (ft_split_size(split) > 2)
 		ft_crash("Error at [%d] line:\n%s\nThere have to be only one content "
-		   "after \"stop_signal\" keyword!\n", i + 1, conf);
+		"after \"stop_signal\" keyword!\n", i + 1, conf);
 	ret = ft_atoi(split[1]);
 	if (ret <= 0 || ret >= NSIG)
 		ft_crash("Error at [%d] line:\n%s\nStop_signal have to be positive "
-		   "non-zero integer"
-			"number between 0 and %d inclusive!\n", i + 1, conf, NSIG - 1);
+		"non-zero integer"
+		"number between 0 and %d inclusive!\n", i + 1, conf, NSIG - 1);
 	ft_free_split(split);
 	return (ret);
 }
@@ -87,14 +87,14 @@ int					create_stop_waiting(char *conf, int i)
 	split = ft_strsplit(conf);
 	if (!split[1])
 		ft_crash("Error at [%d] line:\n%s\nNo content after \"stop_waiting\" "
-		   "keyword!\n", i + 1, conf);
+		"keyword!\n", i + 1, conf);
 	if (ft_split_size(split) > 2)
 		ft_crash("Error at [%d] line:\n%s\nThere have to be only one content "
-		   "after \"stop_waiting\" keyword!\n", i + 1, conf);
+		"after \"stop_waiting\" keyword!\n", i + 1, conf);
 	ret = ft_atoi(split[1]);
 	if (ret < 0)
 		ft_crash("Error at [%d] line:\n%s\nStop_waiting have to be positive "
-		   "integer number!\n", i + 1, conf);
+		"integer number!\n", i + 1, conf);
 	ft_free_split(split);
 	return (ret);
 }

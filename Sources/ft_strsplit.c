@@ -36,7 +36,7 @@ int			ft_count_words(char *str)
 {
 	int		i;
 	int		in_word;
-	int 	count;
+	int		count;
 
 	i = 0;
 	in_word = 0;
@@ -59,7 +59,7 @@ int			ft_count_words(char *str)
 
 int			ft_word_length(char *str, int i)
 {
-	int 	length;
+	int		length;
 
 	length = 0;
 	while (str[i] != ' ' && str[i] != '\t' && str[i] != '\0')
@@ -87,7 +87,7 @@ char		**ft_strsplit(char *str)
 			i++;
 		words[j] = ft_malloc(sizeof(char) * ft_word_length(str, i) + 1);
 		while (str[i] != ' ' && str[i] != '\n' && str[i] != '\t'
-			   && str[i] != '\0')
+			&& str[i] != '\0')
 		{
 			words[j][k++] = str[i++];
 		}

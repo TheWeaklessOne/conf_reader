@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 16:30:10 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/21 16:25:44 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/21 16:31:37 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,8 +54,8 @@ void				create_env(t_task *task, char **conf, int *i);
 t_task				*create_task(char **conf, int *i_p);
 
 int					check_file(const char *file, unsigned check);
-int					check_uniq(int param, int uniq[PARAMS_N],
-						int i, char *str);
+int					uck(int p, int uniq[PARAMS_N],
+								  int i, char *str);
 int					tab_count(const char *str);
 char				*skip_emptiness(char *str);
 char				**add_to_text(char **text, char *add);
