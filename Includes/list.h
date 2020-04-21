@@ -6,15 +6,15 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 16:30:21 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/07 16:30:21 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/21 16:27:49 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIST_H
 # define LIST_H
 
-#include <unistd.h>
-#include <stdlib.h>
+# include <unistd.h>
+# include <stdlib.h>
 
 typedef struct s_task	t_task;
 
@@ -31,7 +31,7 @@ t_list					*list_remove_front(t_list *list, int to_free);
 t_list					*list_remove_back(t_list *list, int to_free);
 t_list					*list_add_front(t_list *list, t_task *content);
 t_list					*list_add_back(t_list *list, t_task *content);
-t_list					*list_create(t_task *);
+t_list					*list_create(t_task *content);
 t_list					*list_remove_all(t_list *list, int to_free);
 int						list_length(t_list *list);
 

@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 16:30:10 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/09 16:11:00 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/21 16:25:44 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@
 # include <sys/stat.h>
 # include <sys/types.h>
 
-
 # include "structures.h"
 # include "list.h"
 
@@ -35,7 +34,6 @@
 # define IS_D		8
 
 # define TAB_SIZE	4
-# define BUFF_SIZE	4
 
 char				*create_name(char *conf, int i);
 char				*create_command(char *conf, int i);
@@ -47,10 +45,10 @@ int					create_stderr(char *conf, int i);
 int					create_restart(char *conf, int i);
 int					create_retries(char *conf, int i);
 int					create_on_start(char *conf, int i);
-int 				create_stop_signal(char *conf, int i);
-int 				create_stop_waiting(char *conf, int i);
-int 				create_success_waiting(char *conf, int i);
-void 				create_end_codes(int codes[END_CODES_N],
+int					create_stop_signal(char *conf, int i);
+int					create_stop_waiting(char *conf, int i);
+int					create_success_waiting(char *conf, int i);
+void				create_end_codes(int codes[END_CODES_N],
 						char *conf, int i);
 void				create_env(t_task *task, char **conf, int *i);
 t_task				*create_task(char **conf, int *i_p);
@@ -62,7 +60,7 @@ int					tab_count(const char *str);
 char				*skip_emptiness(char *str);
 char				**add_to_text(char **text, char *add);
 
-int					get_nl(int const fd, char **line);
+int					get_nl(int fd, char **line);
 int					str_is_empty(const char *str);
 void				ft_crash(const char *msg, ...);
 void				*ft_malloc(size_t size);

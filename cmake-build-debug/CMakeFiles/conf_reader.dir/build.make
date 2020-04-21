@@ -56,38 +56,10 @@ include CMakeFiles/conf_reader.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/conf_reader.dir/flags.make
 
-CMakeFiles/conf_reader.dir/Sources/conf.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/conf.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Sources/conf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/conf_reader.dir/Sources/conf.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\conf.c.obj   -c C:\CLion\conf_reader\Sources\conf.c
-
-CMakeFiles/conf_reader.dir/Sources/conf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/conf.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\conf.c > CMakeFiles\conf_reader.dir\Sources\conf.c.i
-
-CMakeFiles/conf_reader.dir/Sources/conf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/conf.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\conf.c -o CMakeFiles\conf_reader.dir\Sources\conf.c.s
-
-CMakeFiles/conf_reader.dir/Sources/ft.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/ft.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Sources/ft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/conf_reader.dir/Sources/ft.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\ft.c.obj   -c C:\CLion\conf_reader\Sources\ft.c
-
-CMakeFiles/conf_reader.dir/Sources/ft.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/ft.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\ft.c > CMakeFiles\conf_reader.dir\Sources\ft.c.i
-
-CMakeFiles/conf_reader.dir/Sources/ft.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/ft.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\ft.c -o CMakeFiles\conf_reader.dir\Sources\ft.c.s
-
 CMakeFiles/conf_reader.dir/Sources/check_file.c.obj: CMakeFiles/conf_reader.dir/flags.make
 CMakeFiles/conf_reader.dir/Sources/check_file.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
 CMakeFiles/conf_reader.dir/Sources/check_file.c.obj: ../Sources/check_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/conf_reader.dir/Sources/check_file.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/conf_reader.dir/Sources/check_file.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\check_file.c.obj   -c C:\CLion\conf_reader\Sources\check_file.c
 
 CMakeFiles/conf_reader.dir/Sources/check_file.c.i: cmake_force
@@ -98,80 +70,66 @@ CMakeFiles/conf_reader.dir/Sources/check_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/check_file.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\check_file.c -o CMakeFiles\conf_reader.dir\Sources\check_file.c.s
 
-CMakeFiles/conf_reader.dir/Sources/str.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/str.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/str.c.obj: ../Sources/str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/conf_reader.dir/Sources/str.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\str.c.obj   -c C:\CLion\conf_reader\Sources\str.c
+CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: ../Sources/check_uniq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\check_uniq.c.obj   -c C:\CLion\conf_reader\Sources\check_uniq.c
 
-CMakeFiles/conf_reader.dir/Sources/str.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/str.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\str.c > CMakeFiles\conf_reader.dir\Sources\str.c.i
+CMakeFiles/conf_reader.dir/Sources/check_uniq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/check_uniq.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\check_uniq.c > CMakeFiles\conf_reader.dir\Sources\check_uniq.c.i
 
-CMakeFiles/conf_reader.dir/Sources/str.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/str.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\str.c -o CMakeFiles\conf_reader.dir\Sources\str.c.s
+CMakeFiles/conf_reader.dir/Sources/check_uniq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/check_uniq.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\check_uniq.c -o CMakeFiles\conf_reader.dir\Sources\check_uniq.c.s
 
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/get_nl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\get_nl.c.obj   -c C:\CLion\conf_reader\Sources\get_nl.c
+CMakeFiles/conf_reader.dir/Sources/conf.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/conf.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Sources/conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/conf_reader.dir/Sources/conf.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\conf.c.obj   -c C:\CLion\conf_reader\Sources\conf.c
 
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/get_nl.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\get_nl.c > CMakeFiles\conf_reader.dir\Sources\get_nl.c.i
+CMakeFiles/conf_reader.dir/Sources/conf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/conf.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\conf.c > CMakeFiles\conf_reader.dir\Sources\conf.c.i
 
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/get_nl.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\get_nl.c -o CMakeFiles\conf_reader.dir\Sources\get_nl.c.s
+CMakeFiles/conf_reader.dir/Sources/conf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/conf.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\conf.c -o CMakeFiles\conf_reader.dir\Sources\conf.c.s
 
-CMakeFiles/conf_reader.dir/Sources/list.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/list.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Sources/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/conf_reader.dir/Sources/list.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\list.c.obj   -c C:\CLion\conf_reader\Sources\list.c
+CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: ../Sources/conf_help.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\conf_help.c.obj   -c C:\CLion\conf_reader\Sources\conf_help.c
 
-CMakeFiles/conf_reader.dir/Sources/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/list.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\list.c > CMakeFiles\conf_reader.dir\Sources\list.c.i
+CMakeFiles/conf_reader.dir/Sources/conf_help.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/conf_help.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\conf_help.c > CMakeFiles\conf_reader.dir\Sources\conf_help.c.i
 
-CMakeFiles/conf_reader.dir/Sources/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/list.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\list.c -o CMakeFiles\conf_reader.dir\Sources\list.c.s
+CMakeFiles/conf_reader.dir/Sources/conf_help.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/conf_help.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\conf_help.c -o CMakeFiles\conf_reader.dir\Sources\conf_help.c.s
 
-CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Sources/list_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/conf_reader.dir/Sources/list_2.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\list_2.c.obj   -c C:\CLion\conf_reader\Sources\list_2.c
+CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj: ../Sources/conf_reload.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\conf_reload.c.obj   -c C:\CLion\conf_reader\Sources\conf_reload.c
 
-CMakeFiles/conf_reader.dir/Sources/list_2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/list_2.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\list_2.c > CMakeFiles\conf_reader.dir\Sources\list_2.c.i
+CMakeFiles/conf_reader.dir/Sources/conf_reload.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/conf_reload.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\conf_reload.c > CMakeFiles\conf_reader.dir\Sources\conf_reload.c.i
 
-CMakeFiles/conf_reader.dir/Sources/list_2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/list_2.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\list_2.c -o CMakeFiles\conf_reader.dir\Sources\list_2.c.s
-
-CMakeFiles/conf_reader.dir/Sources/create_job.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/create_job.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/create_job.c.obj: ../Sources/create_job.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/conf_reader.dir/Sources/create_job.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\create_job.c.obj   -c C:\CLion\conf_reader\Sources\create_job.c
-
-CMakeFiles/conf_reader.dir/Sources/create_job.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/create_job.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\create_job.c > CMakeFiles\conf_reader.dir\Sources\create_job.c.i
-
-CMakeFiles/conf_reader.dir/Sources/create_job.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/create_job.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\create_job.c -o CMakeFiles\conf_reader.dir\Sources\create_job.c.s
+CMakeFiles/conf_reader.dir/Sources/conf_reload.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/conf_reload.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\conf_reload.c -o CMakeFiles\conf_reader.dir\Sources\conf_reload.c.s
 
 CMakeFiles/conf_reader.dir/Sources/create.c.obj: CMakeFiles/conf_reader.dir/flags.make
 CMakeFiles/conf_reader.dir/Sources/create.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
 CMakeFiles/conf_reader.dir/Sources/create.c.obj: ../Sources/create.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/conf_reader.dir/Sources/create.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/conf_reader.dir/Sources/create.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\create.c.obj   -c C:\CLion\conf_reader\Sources\create.c
 
 CMakeFiles/conf_reader.dir/Sources/create.c.i: cmake_force
@@ -182,24 +140,10 @@ CMakeFiles/conf_reader.dir/Sources/create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/create.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\create.c -o CMakeFiles\conf_reader.dir\Sources\create.c.s
 
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\ft_strsplit.c.obj   -c C:\CLion\conf_reader\Sources\ft_strsplit.c
-
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\ft_strsplit.c > CMakeFiles\conf_reader.dir\Sources\ft_strsplit.c.i
-
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\ft_strsplit.c -o CMakeFiles\conf_reader.dir\Sources\ft_strsplit.c.s
-
 CMakeFiles/conf_reader.dir/Sources/create_2.c.obj: CMakeFiles/conf_reader.dir/flags.make
 CMakeFiles/conf_reader.dir/Sources/create_2.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
 CMakeFiles/conf_reader.dir/Sources/create_2.c.obj: ../Sources/create_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/conf_reader.dir/Sources/create_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/conf_reader.dir/Sources/create_2.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\create_2.c.obj   -c C:\CLion\conf_reader\Sources\create_2.c
 
 CMakeFiles/conf_reader.dir/Sources/create_2.c.i: cmake_force
@@ -213,7 +157,7 @@ CMakeFiles/conf_reader.dir/Sources/create_2.c.s: cmake_force
 CMakeFiles/conf_reader.dir/Sources/create_3.c.obj: CMakeFiles/conf_reader.dir/flags.make
 CMakeFiles/conf_reader.dir/Sources/create_3.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
 CMakeFiles/conf_reader.dir/Sources/create_3.c.obj: ../Sources/create_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/conf_reader.dir/Sources/create_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/conf_reader.dir/Sources/create_3.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\create_3.c.obj   -c C:\CLion\conf_reader\Sources\create_3.c
 
 CMakeFiles/conf_reader.dir/Sources/create_3.c.i: cmake_force
@@ -227,7 +171,7 @@ CMakeFiles/conf_reader.dir/Sources/create_3.c.s: cmake_force
 CMakeFiles/conf_reader.dir/Sources/create_env.c.obj: CMakeFiles/conf_reader.dir/flags.make
 CMakeFiles/conf_reader.dir/Sources/create_env.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
 CMakeFiles/conf_reader.dir/Sources/create_env.c.obj: ../Sources/create_env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/conf_reader.dir/Sources/create_env.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/conf_reader.dir/Sources/create_env.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\create_env.c.obj   -c C:\CLion\conf_reader\Sources\create_env.c
 
 CMakeFiles/conf_reader.dir/Sources/create_env.c.i: cmake_force
@@ -238,10 +182,94 @@ CMakeFiles/conf_reader.dir/Sources/create_env.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/create_env.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\create_env.c -o CMakeFiles\conf_reader.dir\Sources\create_env.c.s
 
+CMakeFiles/conf_reader.dir/Sources/create_job.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/create_job.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/create_job.c.obj: ../Sources/create_job.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/conf_reader.dir/Sources/create_job.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\create_job.c.obj   -c C:\CLion\conf_reader\Sources\create_job.c
+
+CMakeFiles/conf_reader.dir/Sources/create_job.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/create_job.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\create_job.c > CMakeFiles\conf_reader.dir\Sources\create_job.c.i
+
+CMakeFiles/conf_reader.dir/Sources/create_job.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/create_job.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\create_job.c -o CMakeFiles\conf_reader.dir\Sources\create_job.c.s
+
+CMakeFiles/conf_reader.dir/Sources/ft.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/ft.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Sources/ft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/conf_reader.dir/Sources/ft.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\ft.c.obj   -c C:\CLion\conf_reader\Sources\ft.c
+
+CMakeFiles/conf_reader.dir/Sources/ft.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/ft.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\ft.c > CMakeFiles\conf_reader.dir\Sources\ft.c.i
+
+CMakeFiles/conf_reader.dir/Sources/ft.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/ft.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\ft.c -o CMakeFiles\conf_reader.dir\Sources\ft.c.s
+
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\ft_strsplit.c.obj   -c C:\CLion\conf_reader\Sources\ft_strsplit.c
+
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\ft_strsplit.c > CMakeFiles\conf_reader.dir\Sources\ft_strsplit.c.i
+
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\ft_strsplit.c -o CMakeFiles\conf_reader.dir\Sources\ft_strsplit.c.s
+
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/get_nl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\get_nl.c.obj   -c C:\CLion\conf_reader\Sources\get_nl.c
+
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/get_nl.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\get_nl.c > CMakeFiles\conf_reader.dir\Sources\get_nl.c.i
+
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/get_nl.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\get_nl.c -o CMakeFiles\conf_reader.dir\Sources\get_nl.c.s
+
+CMakeFiles/conf_reader.dir/Sources/list.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/list.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Sources/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/conf_reader.dir/Sources/list.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\list.c.obj   -c C:\CLion\conf_reader\Sources\list.c
+
+CMakeFiles/conf_reader.dir/Sources/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/list.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\list.c > CMakeFiles\conf_reader.dir\Sources\list.c.i
+
+CMakeFiles/conf_reader.dir/Sources/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/list.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\list.c -o CMakeFiles\conf_reader.dir\Sources\list.c.s
+
+CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Sources/list_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/conf_reader.dir/Sources/list_2.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\list_2.c.obj   -c C:\CLion\conf_reader\Sources\list_2.c
+
+CMakeFiles/conf_reader.dir/Sources/list_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/list_2.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\list_2.c > CMakeFiles\conf_reader.dir\Sources\list_2.c.i
+
+CMakeFiles/conf_reader.dir/Sources/list_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/list_2.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\list_2.c -o CMakeFiles\conf_reader.dir\Sources\list_2.c.s
+
 CMakeFiles/conf_reader.dir/Sources/main.c.obj: CMakeFiles/conf_reader.dir/flags.make
 CMakeFiles/conf_reader.dir/Sources/main.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
 CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Sources/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/conf_reader.dir/Sources/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/conf_reader.dir/Sources/main.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\main.c.obj   -c C:\CLion\conf_reader\Sources\main.c
 
 CMakeFiles/conf_reader.dir/Sources/main.c.i: cmake_force
@@ -252,38 +280,24 @@ CMakeFiles/conf_reader.dir/Sources/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/main.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\main.c -o CMakeFiles\conf_reader.dir\Sources\main.c.s
 
-CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: ../Sources/conf_help.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\conf_help.c.obj   -c C:\CLion\conf_reader\Sources\conf_help.c
+CMakeFiles/conf_reader.dir/Sources/str.c.obj: CMakeFiles/conf_reader.dir/flags.make
+CMakeFiles/conf_reader.dir/Sources/str.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
+CMakeFiles/conf_reader.dir/Sources/str.c.obj: ../Sources/str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/conf_reader.dir/Sources/str.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\str.c.obj   -c C:\CLion\conf_reader\Sources\str.c
 
-CMakeFiles/conf_reader.dir/Sources/conf_help.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/conf_help.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\conf_help.c > CMakeFiles\conf_reader.dir\Sources\conf_help.c.i
+CMakeFiles/conf_reader.dir/Sources/str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/str.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\str.c > CMakeFiles\conf_reader.dir\Sources\str.c.i
 
-CMakeFiles/conf_reader.dir/Sources/conf_help.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/conf_help.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\conf_help.c -o CMakeFiles\conf_reader.dir\Sources\conf_help.c.s
-
-CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: ../Sources/check_uniq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\check_uniq.c.obj   -c C:\CLion\conf_reader\Sources\check_uniq.c
-
-CMakeFiles/conf_reader.dir/Sources/check_uniq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/check_uniq.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\check_uniq.c > CMakeFiles\conf_reader.dir\Sources\check_uniq.c.i
-
-CMakeFiles/conf_reader.dir/Sources/check_uniq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/check_uniq.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\check_uniq.c -o CMakeFiles\conf_reader.dir\Sources\check_uniq.c.s
+CMakeFiles/conf_reader.dir/Sources/str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/str.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\str.c -o CMakeFiles\conf_reader.dir\Sources\str.c.s
 
 CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: CMakeFiles/conf_reader.dir/flags.make
 CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
 CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Sources/task_delete.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\task_delete.c.obj   -c C:\CLion\conf_reader\Sources\task_delete.c
 
 CMakeFiles/conf_reader.dir/Sources/task_delete.c.i: cmake_force
@@ -294,62 +308,48 @@ CMakeFiles/conf_reader.dir/Sources/task_delete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/task_delete.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\task_delete.c -o CMakeFiles\conf_reader.dir\Sources\task_delete.c.s
 
-CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj: CMakeFiles/conf_reader.dir/flags.make
-CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj: CMakeFiles/conf_reader.dir/includes_C.rsp
-CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj: ../Sources/conf_reload.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CLion\conf_reader\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\conf_reader.dir\Sources\conf_reload.c.obj   -c C:\CLion\conf_reader\Sources\conf_reload.c
-
-CMakeFiles/conf_reader.dir/Sources/conf_reload.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/conf_reader.dir/Sources/conf_reload.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLion\conf_reader\Sources\conf_reload.c > CMakeFiles\conf_reader.dir\Sources\conf_reload.c.i
-
-CMakeFiles/conf_reader.dir/Sources/conf_reload.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/conf_reader.dir/Sources/conf_reload.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLion\conf_reader\Sources\conf_reload.c -o CMakeFiles\conf_reader.dir\Sources\conf_reload.c.s
-
 # Object files for target conf_reader
 conf_reader_OBJECTS = \
-"CMakeFiles/conf_reader.dir/Sources/conf.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/ft.c.obj" \
 "CMakeFiles/conf_reader.dir/Sources/check_file.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/str.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/list.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/list_2.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/create_job.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/conf.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj" \
 "CMakeFiles/conf_reader.dir/Sources/create.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj" \
 "CMakeFiles/conf_reader.dir/Sources/create_2.c.obj" \
 "CMakeFiles/conf_reader.dir/Sources/create_3.c.obj" \
 "CMakeFiles/conf_reader.dir/Sources/create_env.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/create_job.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/ft.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/list.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/list_2.c.obj" \
 "CMakeFiles/conf_reader.dir/Sources/main.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj" \
-"CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj"
+"CMakeFiles/conf_reader.dir/Sources/str.c.obj" \
+"CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj"
 
 # External object files for target conf_reader
 conf_reader_EXTERNAL_OBJECTS =
 
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/conf.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/ft.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/check_file.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/str.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/list.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/list_2.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/create_job.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/conf.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/create.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/create_2.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/create_3.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/create_env.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/create_job.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/ft.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/list.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/list_2.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/main.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj
+conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/str.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj
-conf_reader.exe: CMakeFiles/conf_reader.dir/Sources/conf_reload.c.obj
 conf_reader.exe: CMakeFiles/conf_reader.dir/build.make
 conf_reader.exe: CMakeFiles/conf_reader.dir/linklibs.rsp
 conf_reader.exe: CMakeFiles/conf_reader.dir/objects1.rsp

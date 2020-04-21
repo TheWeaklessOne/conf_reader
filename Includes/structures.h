@@ -6,13 +6,14 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 16:30:25 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/07 17:07:35 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/04/21 16:21:33 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef STRUCTURES_H
 # define STRUCTURES_H
 
+# define BUFF_SIZE		10
 # define END_CODES_N	255
 
 enum					e_restart
@@ -62,5 +63,17 @@ typedef struct			s_task
 	int					end_codes[END_CODES_N];	//какие коды, возвращаемые программой, стоит считать за успешное завершение
 	char				**env;					//переменные среды для программы, если NULL, то стандартно
 }						t_task;
+
+typedef struct			s_get_next_line
+{
+	char				*lp_cmp;
+	char				*lp_prev;
+	char				*line;
+	size_t				line_count;
+	size_t				interval;
+	size_t				tmp;
+	ssize_t				count;
+	char				buffer[BUFF_SIZE];
+}						t_get_next_line;
 
 #endif

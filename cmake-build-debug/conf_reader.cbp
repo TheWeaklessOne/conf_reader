@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/CLion/conf_reader/Includes"/>
+					<Add directory="C:/CLion/conf_reader/Sources"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
@@ -44,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/CLion/conf_reader/Includes"/>
+					<Add directory="C:/CLion/conf_reader/Sources"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
@@ -140,6 +142,9 @@
 			<Option target="conf_reader"/>
 		</Unit>
 		<Unit filename="C:/CLion/conf_reader/Sources/str.c">
+			<Option target="conf_reader"/>
+		</Unit>
+		<Unit filename="C:/CLion/conf_reader/Sources/structures.h">
 			<Option target="conf_reader"/>
 		</Unit>
 		<Unit filename="C:/CLion/conf_reader/Sources/task_delete.c">

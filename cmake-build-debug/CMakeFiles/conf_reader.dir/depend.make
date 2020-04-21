@@ -11,10 +11,10 @@ CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/check_uniq.c.obj: ../Sources/check_uniq.c
 
+CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Includes/conf.h
+CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Includes/list.h
+CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Sources/conf.c
-CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Sources/conf.h
-CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Sources/list.h
-CMakeFiles/conf_reader.dir/Sources/conf.c.obj: ../Sources/structures.h
 
 CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: ../Includes/conf.h
 CMakeFiles/conf_reader.dir/Sources/conf_help.c.obj: ../Includes/list.h
@@ -56,34 +56,34 @@ CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/ft.c.obj: ../Sources/ft.c
 
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/conf.h
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Includes/conf.h
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Includes/list.h
+CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/ft_strsplit.c
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/list.h
-CMakeFiles/conf_reader.dir/Sources/ft_strsplit.c.obj: ../Sources/structures.h
 
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/conf.h
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/conf.h
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/list.h
+CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/get_nl.c
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/list.h
-CMakeFiles/conf_reader.dir/Sources/get_nl.c.obj: ../Sources/structures.h
 
-CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Sources/list.c
+CMakeFiles/conf_reader.dir/Sources/list.c.obj: ../Sources/list.h
 
-CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Includes/list.h
+CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Sources/list.h
 CMakeFiles/conf_reader.dir/Sources/list_2.c.obj: ../Sources/list_2.c
 
-CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Sources/conf.h
-CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Sources/list.h
+CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Includes/conf.h
+CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Includes/list.h
+CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Sources/main.c
-CMakeFiles/conf_reader.dir/Sources/main.c.obj: ../Sources/structures.h
 
 CMakeFiles/conf_reader.dir/Sources/str.c.obj: ../Includes/conf.h
 CMakeFiles/conf_reader.dir/Sources/str.c.obj: ../Includes/list.h
 CMakeFiles/conf_reader.dir/Sources/str.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/str.c.obj: ../Sources/str.c
 
-CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Sources/conf.h
-CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Sources/list.h
-CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Sources/structures.h
+CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Includes/conf.h
+CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Includes/list.h
+CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Includes/structures.h
 CMakeFiles/conf_reader.dir/Sources/task_delete.c.obj: ../Sources/task_delete.c
 
