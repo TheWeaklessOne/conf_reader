@@ -45,6 +45,7 @@ static char				**read_from_conf(int fd)
 		ret = add_to_text(ret, str);
 	if (!ret)
 		ft_crash("File is empty!\n");
+	close(fd);
 	return (ret);
 }
 

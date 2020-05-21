@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 12:40:09 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/21 17:24:58 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/05/21 17:06:58 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ static void		fill_task(char **conf, int *i, t_task *task,
 		"keyword!\n", *i + 1, conf[*i]);
 	if (!strchr(str, ':'))
 		ft_crash("Error at [%d] line: %s\nKeyword have to followed by ':' "
-		"symbol!\n", *i + 1, conf);
+		"symbol!\n", *i + 1, conf[*i]);
 	if (!strncmp(str, "name:", 5))
 		task->name = create_name(conf[*i], *i);
 	else if (!strncmp(str, "command:", 8) && uck(COMMAND, uniq, *i, conf[*i]))
@@ -117,7 +117,7 @@ t_task			*create_task(char **conf, int *i)
 	while (++k < END_CODES_N)
 		task->end_codes[k] = -1;
 	task->name = create_name(conf[*i], *i);
-	while (tab_count(conf[++(*i)]) != 0)
+	while (!str_is_empty(conf[++(*i)]) && tab_count(conf[*i]) != 0)
 		fill_task(conf, i, task, params_uniq);
 	check_task(task);
 	(*i)--;
