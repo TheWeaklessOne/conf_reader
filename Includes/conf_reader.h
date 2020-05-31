@@ -1,28 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   conf_reader.h                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/04/07 15:30:33 by wstygg            #+#    #+#             */
-/*   Updated: 2020/06/01 00:20:37 by wstygg           ###   ########.fr       */
+/*   Created: 2020/06/01 00:17:31 by wstygg            #+#    #+#             */
+/*   Updated: 2020/06/01 00:24:13 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "conf_reader.h"
-#include <stdlib.h>
+#ifndef CONF_READER_H
+# define CONF_READER_H
 
-int						main(void)
-{
-	const char			*path = "Conf.conf";
-	t_list				*task_list;
+# include "structures.h"
 
-	conf_help();
-	task_list = conf_read(path);
-	print_tasks(task_list);
-	task_list = conf_reload("Conf_2.conf", task_list);
-	print_tasks(task_list);
-	task_list_delete(task_list);
-	exit(0);
-}
+typedef	struct s_list	t_list;
+
+void					conf_help(void);
+void					task_delete(t_task **task_p);
+void					print_tasks(t_list *task_list);
+void					task_list_delete(t_list *task_list);
+t_list					*conf_read(const char *path);
+t_list					*conf_reload(const char *path, t_list *old_tasks);
+
+#endif

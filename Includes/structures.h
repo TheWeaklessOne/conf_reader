@@ -13,6 +13,8 @@
 #ifndef STRUCTURES_H
 # define STRUCTURES_H
 
+# include <stdlib.h>
+
 # define BUFF_SIZE		10
 # define END_CODES_N	255
 
