@@ -34,7 +34,7 @@ static int				open_conf(const char *path)
 	return (ret);
 }
 
-static char				**read_from_conf(int fd)
+static char				**read_from_conf(const int fd)
 {
 	char				**ret;
 	char				*str;
@@ -49,7 +49,7 @@ static char				**read_from_conf(int fd)
 	return (ret);
 }
 
-t_list					*get_tasks(int fd)
+static t_list			*get_tasks(const int fd)
 {
 	t_list				*ret;
 	char				**conf;

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Includes/conf_reader.h
+structures.h
+../Includes/structures.h
+
+../Includes/structures.h
+unistd.h
+-
+
+C:/Users/Admin/Desktop/conf_reader/main.c
+conf_reader.h
+C:/Users/Admin/Desktop/conf_reader/conf_reader.h
+stdlib.h
+-
+

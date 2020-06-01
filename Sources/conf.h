@@ -68,6 +68,8 @@ int					ft_split_size(char **split);
 void				ft_free_split(char **split);
 char				**ft_strsplit(char *str);
 int					ft_atoi(const char *str);
+void				*ft_memcpy(void *dst, const void *src, size_t n);
+void				*ft_memchr(const void *s, int c, size_t n);
 char				*ft_strjoin(const char *str, const char *str2,
 						int to_free);
 
