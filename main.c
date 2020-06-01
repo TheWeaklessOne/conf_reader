@@ -18,11 +18,11 @@ int						main(void)
 	const char			*path = "Conf.conf";
 	t_list				*task_list;
 
-	conf_help();
+//	conf_help();
 	task_list = conf_read(path);
-	print_tasks(task_list);
-	task_list = conf_reload("Conf_2.conf", task_list);
-	print_tasks(task_list);
-	task_list_delete(task_list);
+//	print_tasks(task_list);
+//	task_list = conf_reload("Conf_2.conf", task_list);
+//	print_tasks(task_list);
+//	task_list_delete(task_list);
 	exit(0);
 }
