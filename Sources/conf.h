@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 16:30:10 by wstygg            #+#    #+#             */
-/*   Updated: 2020/06/01 17:16:30 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/01 23:26:13 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,11 @@
 
 # define TAB_SIZE	4
 
+unsigned char		g_end_code;
+
 char				*create_name(char *conf, int i);
 char				*create_command(char *conf, int i);
-char				*create_directory(char *conf, int i);
+char				*create_directory(char *conf, int i, char *current);
 int					create_umask(char *conf, int i);
 int					create_copies(char *conf, int i);
 int					create_stdout(char *conf, int i);
@@ -55,7 +57,7 @@ t_task				*create_task(char **conf, int *i_p);
 
 int					check_file(const char *file, unsigned check);
 int					uck(int p, int uniq[PARAMS_N],
-								  int i, char *str);
+							int i, char *str);
 int					tab_count(const char *str);
 char				*skip_emptiness(char *str);
 char				**add_to_text(char **text, char *add);

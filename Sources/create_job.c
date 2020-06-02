@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 12:40:09 by wstygg            #+#    #+#             */
-/*   Updated: 2020/05/21 17:06:58 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/02 00:28:18 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static void		fill_task_next_next(char **conf, int *i, t_task *task,
 	else if (!strncmp(str, "env:", 4) && uck(ENV, uniq, *i, conf[*i]))
 		create_env(task, conf, i);
 	else
-		ft_crash("Error at [%d] line: %s\nUnknown keyword!\n",
+		ft_error("Error at [%d] line: %s\nUnknown keyword!\n",
 				*i + 1, conf[*i]);
 }
 
@@ -63,17 +63,15 @@ static void		fill_task(char **conf, int *i, t_task *task,
 
 	str = skip_emptiness(conf[*i]);
 	if (tab_count(conf[*i]) != 1)
-		ft_crash("Error at [%d] line:\n%s\nThere have to be 1 tab depth before "
+		ft_error("Error at [%d] line:\n%s\nThere have to be 1 tab depth before "
 		"keyword!\n", *i + 1, conf[*i]);
-	if (!strchr(str, ':'))
-		ft_crash("Error at [%d] line: %s\nKeyword have to followed by ':' "
+	else if (!strchr(str, ':'))
+		ft_error("Error at [%d] line: %s\nKeyword have to followed by ':' "
 		"symbol!\n", *i + 1, conf[*i]);
-	if (!strncmp(str, "name:", 5))
-		task->name = create_name(conf[*i], *i);
 	else if (!strncmp(str, "command:", 8) && uck(COMMAND, uniq, *i, conf[*i]))
 		task->command = create_command(conf[*i], *i);
 	else if (!strncmp(str, "directory:", 10) && uck(DIR, uniq, *i, conf[*i]))
-		task->directory = create_directory(conf[*i], *i);
+		task->directory = create_directory(conf[*i], *i, task->directory);
 	else if (!strncmp(str, "umask:", 6) && uck(UMASK, uniq, *i, conf[*i]))
 		task->umask = create_umask(conf[*i], *i);
 	else if (!strncmp(str, "copies:", 7) && uck(COPIES, uniq, *i, conf[*i]))
@@ -86,14 +84,17 @@ static void		fill_task(char **conf, int *i, t_task *task,
 		fill_task_next(conf, i, task, uniq);
 }
 
-static void		check_task(t_task *task_p)
+static void		check_task(t_task **task_p)
 {
 	t_task		task;
 
-	task = *task_p;
+	task = **task_p;
 	if (!task.command)
-		ft_crash("%s task is incomplete. Missing \"command\" "
-			"field!\n", task.name);
+	{
+		ft_error("%s task is incomplete. Missing \"command\" "
+				"field!\n", task.name);
+		task_delete(task_p);
+	}
 }
 
 t_task			*create_task(char **conf, int *i)
@@ -108,7 +109,7 @@ t_task			*create_task(char **conf, int *i)
 	task = ft_malloc(sizeof(t_task));
 	*task = (t_task)
 	{
-		.remake = 1, .umask = 022, .copies = 1, .tstdout = 1, .tstderr = 2,
+		.remake = 1, .umask = 18, .copies = 1, .tstdout = 1, .tstderr = 2,
 		.restart = 2, .retries = 1, .on_start = 1, .stop_signal = 2,
 		.stop_waiting = 5, .success_waiting = 10, .end_codes[0] = 0
 	};
@@ -116,10 +117,11 @@ t_task			*create_task(char **conf, int *i)
 	k = 0;
 	while (++k < END_CODES_N)
 		task->end_codes[k] = -1;
-	task->name = create_name(conf[*i], *i);
+	if (!(task->name = create_name(conf[*i], *i)))
+		return (NULL);
 	while (!str_is_empty(conf[++(*i)]) && tab_count(conf[*i]) != 0)
 		fill_task(conf, i, task, params_uniq);
-	check_task(task);
+	check_task(&task);
 	(*i)--;
 	return (task);
 }

@@ -22,7 +22,6 @@ void		task_list_delete(t_list *task_list)
 		del = task_list;
 		task_list = task_list->next;
 		free(del);
-		del = NULL;
 	}
 }
 

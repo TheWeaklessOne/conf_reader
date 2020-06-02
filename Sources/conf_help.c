@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 16:45:06 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/07 17:14:37 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/02 00:06:52 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,12 @@
 void		conf_help(void)
 {
 	printf("Each *.conf file must contain at least one task.\nEach task must"
-		" contain \"name\" and \"command\" field.\nShort description of all"
-		" keywords:\n"
+		" contain \"command\" field.\nWhen an error occurs, used default "
+		"value.\nShort description of all keywords:\n"
 		"command - what command to use to launch the program.\n"
 		"directory - working directory for task. By default - "
 		"current directory.\n"
-		"umask - umask for task. By default - 022.\n"
+		"umask - umask for task. By default - 18.\n"
 		"copies - number of process to start. By default - 1.\n"
 		"stdout - where to redirect task's stdout. By default - 1.\n"
 		"stderr - where to redirect task's stderr. By default - 2.\n"

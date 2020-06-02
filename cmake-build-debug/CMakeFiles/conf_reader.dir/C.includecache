@@ -6,17 +6,43 @@
 
 #IncludeRegexTransform: 
 
-../Includes/conf_reader.h
-structures.h
-../Includes/structures.h
-
 ../Includes/structures.h
 unistd.h
 -
 
-C:/Users/Admin/Desktop/conf_reader/main.c
-conf_reader.h
-C:/Users/Admin/Desktop/conf_reader/conf_reader.h
+C:/Users/Admin/Desktop/conf_reader/Sources/conf.h
+fcntl.h
+-
+stdio.h
+-
+limits.h
+-
+unistd.h
+-
+stdarg.h
+-
+stdlib.h
+-
+string.h
+-
+signal.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+structures.h
+C:/Users/Admin/Desktop/conf_reader/Sources/structures.h
+list.h
+C:/Users/Admin/Desktop/conf_reader/Sources/list.h
+
+C:/Users/Admin/Desktop/conf_reader/Sources/create_env.c
+conf.h
+C:/Users/Admin/Desktop/conf_reader/Sources/conf.h
+
+C:/Users/Admin/Desktop/conf_reader/Sources/list.h
+unistd.h
+-
 stdlib.h
 -
 

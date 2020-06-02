@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/01 00:17:31 by wstygg            #+#    #+#             */
-/*   Updated: 2020/06/01 00:24:13 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/01 23:57:55 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include "structures.h"
 
 typedef	struct s_list	t_list;
+
+unsigned char			g_end_code;
 
 void					conf_help(void);
 void					task_delete(t_task **task_p);

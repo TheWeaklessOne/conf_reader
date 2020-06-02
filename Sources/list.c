@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:30:15 by wstygg            #+#    #+#             */
-/*   Updated: 2020/04/07 15:30:15 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/01 20:31:51 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,8 @@ t_list			*list_add_back(t_list *list, t_task *content)
 
 	if (!list)
 		return (list_create(content));
+	if (!content)
+		return (list);
 	ret = list;
 	while (list->next)
 		list = list->next;
@@ -85,6 +87,8 @@ t_list			*list_create(t_task *content)
 {
 	t_list		*ret;
 
+	if (!content)
+		return (NULL);
 	if (!(ret = malloc(sizeof(t_list))))
 		ft_crash("Malloc error");
 	ret->task = content;

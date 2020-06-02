@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:09:40 by wstygg            #+#    #+#             */
-/*   Updated: 2020/06/01 17:38:24 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/02 13:44:57 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,18 +19,18 @@ static int				open_conf(const char *path)
 
 	len = path ? strlen(path) : 0;
 	if (!path)
-		return ft_error("Bad path provided!\n");
+		return (ft_error("Bad path provided!\n"));
 	if (len < 6 || !(path[len - 1] == 'f' && path[len - 2] == 'n' &&
 	path[len - 3] == 'o' && path[len - 4] == 'c' && path[len - 5] == '.'))
-		return ft_error("You provided not a *.conf file!\n");
+		return (ft_error("You provided not a *.conf file!\n"));
 	if (check_file(path, IS_E) <= 0)
-		return ft_error("No such file - %s!\n", path);
+		return (ft_error("No such file - %s!\n", path));
 	if ((ret = open(path, O_RDONLY)) < 0)
-		return ft_error("Can't open that file - %s!\n", path);
+		return (ft_error("Can't open that file - %s!\n", path));
 	if (!check_file(path, IS_R))
-		return ft_error("Can't read from that file - %s!\n", path);
+		return (ft_error("Can't read from that file - %s!\n", path));
 	if (check_file(path, IS_D))
-		return ft_error("It's a directory - %s!\n", path);
+		return (ft_error("It's a directory - %s!\n", path));
 	return (ret);
 }
 
@@ -49,7 +49,7 @@ static char				**read_from_conf(const int fd)
 	return (ret);
 }
 
-static t_list			*get_tasks(const int fd, char **conf)
+static t_list			*get_tasks(char **conf)
 {
 	t_list				*ret;
 	int					i;
@@ -92,8 +92,8 @@ void					print_tasks(t_list *tasks)
 		if (task->env && (i = -1))
 			while (task->env[++i])
 				printf("    %s\n", task->env[i]);
-		(tasks->next) ? printf("\n") : 0;
 		tasks = tasks->next;
+		tasks ? printf("\n") : 0;
 	}
 }
 
@@ -107,8 +107,7 @@ t_list					*conf_read(const char *path)
 		return (NULL);
 	if (!(conf = read_from_conf(conf_fd)))
 		return (NULL);
-	task_list = get_tasks(conf_fd, conf);
-	if (!task_list)
+	if (!(task_list = get_tasks(conf)))
 		ft_error("No tasks in %s!\n", path);
 	return (task_list);
 }

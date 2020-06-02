@@ -64,7 +64,8 @@ t_list			*conf_reload(const char *path, t_list *old_tasks)
 	t_list		*new_tasks_t;
 	t_list		*old_tasks_t;
 
-	new_tasks = conf_read(path);
+	if (!(new_tasks = conf_read(path)))
+		return (old_tasks);
 	new_tasks_t = new_tasks;
 	while (new_tasks_t)
 	{
@@ -72,10 +73,8 @@ t_list			*conf_reload(const char *path, t_list *old_tasks)
 		while (old_tasks_t)
 		{
 			if (!strcmp(old_tasks_t->task->name, new_tasks_t->task->name))
-			{
 				new_tasks_t->task->remake = compare_tasks(old_tasks_t->task,
-					new_tasks_t->task);
-			}
+															new_tasks_t->task);
 			old_tasks_t = old_tasks_t->next;
 		}
 		new_tasks_t = new_tasks_t->next;

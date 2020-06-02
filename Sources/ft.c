@@ -104,5 +104,5 @@ void					ft_crash(const char *msg, ...)
 	va_start(args, msg);
 	vfprintf(stderr, msg, args);
 	va_end(args);
-	exit(msg ? msg[0] : 255);
+	exit(msg ? msg[0] : 127);
 }

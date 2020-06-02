@@ -72,5 +72,5 @@ int					tab_count(const char *str)
 		else
 			break ;
 	}
-	return (count);
+	return (count + spaces * 10);
 }

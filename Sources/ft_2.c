@@ -6,20 +6,21 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/01 17:14:49 by wstygg            #+#    #+#             */
-/*   Updated: 2020/06/01 17:30:33 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/02 00:01:37 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "conf.h"
 
-int						ft_error(const char *msg, ...)
+int					ft_error(const char *msg, ...)
 {
-	va_list				args;
+	va_list			args;
 
 	va_start(args, msg);
 	vfprintf(stderr, msg, args);
 	va_end(args);
-	return (msg ? -msg[0] : -255);
+	g_end_code = msg ? msg[0] : 127;
+	return (-g_end_code);
 }
 
 void				*ft_memcpy(void *dst, const void *src, size_t n)
