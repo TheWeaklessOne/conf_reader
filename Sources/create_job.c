@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 12:40:09 by wstygg            #+#    #+#             */
-/*   Updated: 2020/06/02 00:28:18 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/02 14:54:00 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,7 +118,10 @@ t_task			*create_task(char **conf, int *i)
 	while (++k < END_CODES_N)
 		task->end_codes[k] = -1;
 	if (!(task->name = create_name(conf[*i], *i)))
+	{
+		task_delete(&task);
 		return (NULL);
+	}
 	while (!str_is_empty(conf[++(*i)]) && tab_count(conf[*i]) != 0)
 		fill_task(conf, i, task, params_uniq);
 	check_task(&task);

@@ -1,3 +1,0 @@
-C:/Users/Admin/Desktop/conf_reader/cmake-build-debug/CMakeFiles/conf_reader.dir
-C:/Users/Admin/Desktop/conf_reader/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Desktop/conf_reader/cmake-build-debug/CMakeFiles/rebuild_cache.dir

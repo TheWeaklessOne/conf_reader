@@ -6,7 +6,7 @@
 /*   By: wstygg <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/04/07 15:09:40 by wstygg            #+#    #+#             */
-/*   Updated: 2020/06/02 13:44:57 by wstygg           ###   ########.fr       */
+/*   Updated: 2020/06/02 14:54:00 by wstygg           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ void					print_tasks(t_list *tasks)
 			while (task->env[++i])
 				printf("    %s\n", task->env[i]);
 		tasks = tasks->next;
-		tasks ? printf("\n") : 0;
+		printf("\n");
 	}
 }
 

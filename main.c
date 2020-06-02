@@ -22,8 +22,8 @@ int						main(void)
 //	conf_help();
 	task_list = conf_read(path);
 	print_tasks(task_list);
-//	task_list = conf_reload("Conf_2.conf", task_list);
-//	print_tasks(task_list);
+	task_list = conf_reload("Conf_2.conf", task_list);
+	print_tasks(task_list);
 	task_list_delete(task_list);
 	return (g_end_code);
 }
